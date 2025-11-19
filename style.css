@@ -1,0 +1,123 @@
+body {
+    background-color: lightcyan;
+}
+
+
+.header {
+    background-color: rgb(41, 3, 77);
+    text-align: left;
+    color: white;
+    margin-bottom: 50px;
+    
+    padding: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+span a { /*<!--потомокЪ-->*/
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+  font-family: 'Arial', 'Verdana', sans-serif;
+}
+h2 {
+  font-family: 'Arial', 'Verdana', sans-serif;
+}
+h3 {
+  font-family: 'Arial', 'Verdana', sans-serif;
+}
+p {
+  font-family: 'Arial';
+  font-size: 21px;
+  color: black;
+}
+b {
+  font-family: 'Arial';
+  font-size: 21px;
+  color: black;
+  
+}
+
+table {
+    color: black;
+
+}
+
+th {
+    background-color: gray;
+    border: 2px solid #3f3434;
+    width: 250px;
+     padding: 5px;
+         left: 10px;
+
+}
+
+td {
+    width: 250px;
+    border: 2px solid #3f3434;
+    width: 250px;
+     padding: 5px;
+         left: 10px;
+
+}
+.container {
+    background-color: white;
+    text-align: left;
+    color: blue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7); 
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+
+span {
+    color: black;
+}
+
+input {
+    width: 1000px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+button:hover { /*при наведении мыши */
+    transition: 1s;
+    background-color: rgb(221, 18, 18);
+    color: green;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+}
+button:active { /*при клике */
+    background-color: rgb(184, 221, 18);
+    color: green;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: blue;
+    text-align:center;
+    color: white;
+    padding: 40px;
+}
