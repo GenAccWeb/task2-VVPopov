@@ -8,8 +8,10 @@ body {
     text-align: left;
     color: white;
     margin-bottom: 50px;
-    
-    padding: 10px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-top: -1rem;
+    padding: 20px;
     
     font-family: Arial, Helvetica, sans-serif;
 
@@ -67,6 +69,7 @@ td {
     background-color: white;
     text-align: left;
     color: blue;
+    margin: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
     padding: 10px;
@@ -75,7 +78,13 @@ td {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7); 
 }
 
+.name {
+    width: 100%;
+    }
 
+.email {
+    width: 100%;
+    }
 
 textarea {
     width: 100%;
@@ -120,4 +129,8 @@ button:active { /*при клике */
     text-align:center;
     color: white;
     padding: 40px;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    
 }
